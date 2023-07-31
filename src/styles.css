@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  gap: 1em;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.question {
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+  color: #023047;
+  border-radius: 15px;
+  background-color: #8ecae6;
+  margin-bottom: 1em;
+  max-width: 30em;
+  padding: 1em;
+  min-height: 10em;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3em;
+}
+
+.options li {
+}
+.answer {
+  text-align: center;
+}
+button {
+  padding: 1em;
+  font-weight: 500;
+  color: black;
+  background-color: #ffb703;
+  border: none;
+  border-radius: 15px;
+}
+
+/* @media (min-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+} */
